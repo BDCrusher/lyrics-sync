@@ -1,8 +1,12 @@
 ﻿# Fast-Lyrics Sync
 
+ 
+
 Fast way to timestamp lyrics and export synced LRC text.
 
 One file, no install, runs locally in your browser.
+
+And credit to https://github.com/Fhox006 as the origonal
 
 ## Features
 
