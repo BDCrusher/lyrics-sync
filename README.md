@@ -7,7 +7,6 @@ One file, no install, runs locally in your browser.
 ## Features
 
 - Single-file app (`lyrics-sync-6.0.html`)
-- 5-second countdown before sync starts
 - Click-to-timestamp each lyric line
 - Undo last timestamp
 - Pause and resume while syncing
