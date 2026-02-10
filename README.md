@@ -1,33 +1,39 @@
 ﻿# Fast-Lyrics Sync
 
-Standalone offline lyric timestamping tool for creating synced LRC lines quickly.
+Fast way to timestamp lyrics and export synced LRC text.
+
+One file, no install, runs locally in your browser.
 
 ## Features
 
 - Single-file app (`lyrics-sync-6.0.html`)
-- Manual line-by-line sync with countdown
-- Undo last timestamp and pause/resume
-- Drag-and-drop audio upload
-- Built-in synced preview mode
-- Cover art and metadata extraction from audio tags
-- Quick-test mode for fast validation
-- Works fully offline in the browser
+- 5-second countdown before sync starts
+- Click-to-timestamp each lyric line
+- Undo last timestamp
+- Pause and resume while syncing
+- Audio upload with file picker or drag and drop
+- Built-in preview to check sync against audio
+- Reads embedded title/artist/cover when available
+- Copy plain lyrics or synced LRC output
+- Works fully offline
 
 ## How To Use
 
 1. Open `lyrics-sync-6.0.html` in your browser.
-2. Paste lyrics (one line per phrase).
-3. Optional: load or drag an audio file.
-4. Press **Start Sync** and click when each line starts.
-5. Press **Finish** to generate synced LRC output.
-6. Use preview to verify timing and adjust delay if needed.
+2. Paste lyrics with one line per phrase.
+3. Optional: load an audio file.
+4. Click `Start Sync`.
+5. When countdown hits `0`, click when each line starts.
+6. Click `Finish` when done.
+7. Use `Preview` to check timing.
+8. Copy synced lyrics from the output box.
 
-## File In Repo
+## Tips
+
+- If lines feel early or late, adjust `ms anticipation`.
+- Use `Undo Last` if you miss a click.
+- In preview, click a lyric line to jump to that point.
+
+## In This Repo
 
 - `lyrics-sync-6.0.html`
-
-## Notes
-
-- No build step required.
-- No backend required.
-- Can be shared as one standalone HTML file.
